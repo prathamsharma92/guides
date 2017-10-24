@@ -117,3 +117,9 @@ _Note that the first letter is only capitalized if it is at the beginning of the
     ```ruby
     "15".to_i #=> 15 # integer
     ```
+### Concat
+
+*   The `.concat method changes a string to a new one.
+    ```ruby
+    "15".concat("00") #=> "1500" # string
+    ```
