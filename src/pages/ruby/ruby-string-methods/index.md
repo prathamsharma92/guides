@@ -116,4 +116,11 @@ _Note that the first letter is only capitalized if it is at the beginning of the
 *   The `.to_i` method converts a string to an integer.
     ```ruby
     "15".to_i #=> 15 # integer
-    ```
+    
+### Concat:
+
+*   The `.concat` method changes a string to make a new one.
+    ```ruby
+    currency = "15"
+    zero = "00"
+    currency.concat(zero) #=> currency => "1500"
